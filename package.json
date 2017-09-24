@@ -1,0 +1,46 @@
+{
+  "name": "components.ws",
+  "version": "0.0.1",
+  "description": "",
+  "main": "webpack.cofig.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --inline  --open",
+    "build": "webpack",
+    "format": "prettier-eslint --write 'src/**/*.js*'",
+    "prepare-commit-msg": ". hooks/prepare-commit-msg.sh"
+  },
+  "author": {
+    "name": "Andrei Bunulu",
+    "email": "bunulu@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "css-loader": "^0.28.7",
+    "documentation": "^5.3.2",
+    "eslint": "^4.7.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "flow-bin": "^0.55.0",
+    "postcss-loader": "^2.0.6",
+    "pre-commit": "^1.2.2",
+    "prettier-eslint-cli": "^4.3.2",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
