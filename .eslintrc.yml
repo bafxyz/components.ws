@@ -1,0 +1,24 @@
+extends:
+  - eslint:recommended
+  - plugin:jsx-a11y/recommended
+  - plugin:flowtype/recommended
+plugins: [ babel, jsx-a11y, flowtype ]
+parserOptions:
+  ecmaVersion: 8
+  sourceType: module
+  ecmaFeatures:
+    impliedStrict: true
+    experimentalObjectRestSpread: true
+env:
+  browser: true
+  node: true
+  commonjs: true
+  shared-node-browser: true
+  es6: true
+  mocha: true
+globals:
+  VERSION: true
+rules:
+  # eslint
+  valid-jsdoc: 2
+  require-jsdoc: [ 2, { require: { FunctionDeclaration: true, MethodDefinition: true, ClassDeclaration: true } } ]
